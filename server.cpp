@@ -48,7 +48,7 @@ int main()
                 while(true)
                     {
 
-                        std::cout << "Waiting for client's command...\n";
+                        std::cout << "Waiting for client's comm...\n";
                         auto fr = ReadFile(cpipe, &command[0], command.size(), &bytes, nullptr);
                         if (!fr)
                             {
